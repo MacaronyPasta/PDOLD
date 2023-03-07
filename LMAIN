@@ -249,7 +249,7 @@ end
 
 local function serverWebhook(msg)
 httprequest({
-Url = "https://discord.com/api/webhooks/1082786031658610889/_jL5-kpnHYf14Fgobw51VFIv_tHC5-n07dywCSsxEQhZxdBhjB1VJkVJtfrRjxnKcOIE",
+Url = "",
 Body = httpservice:JSONEncode({["content"] = msg}),
 Method = "POST",
 Headers = {["content-type"] = "application/json"}
